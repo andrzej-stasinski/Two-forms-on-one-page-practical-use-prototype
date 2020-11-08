@@ -1,0 +1,36 @@
+* {
+	/* font-size: 18px; */
+	font-family: sans-serif;
+	margin: 0;padding: 5px;
+}
+body {
+	font-size: 18px;
+}
+.button {
+	padding:10px;
+	background-color: blue;
+	color: yellow;
+	width: 120px;
+	font-weight: bold;
+	font-size: 18px;
+}
+input {
+	font-size: 16px;
+	padding: 5px;
+}
+.hidden {
+	display: none;
+}
+.invalid {
+    border:1px solid red;
+}
+.form-errors {
+    color: red;
+}
+
+
+
+
+
+
+

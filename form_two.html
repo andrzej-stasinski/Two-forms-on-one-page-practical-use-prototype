@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Two forms</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="">
+
+</head>
+<body>
+    
+<div id="container">  
+    
+<h2>Two forms validation</h2>
+
+<h4>Form One</h4>    
+<form action="javascript:alert('form sended')" id="form" novalidate>
+    
+    <fieldset>
+        <label>Adres e-mail</label>
+            <input type="email" name="email"/>*
+    </fieldset>
+    
+    <fieldset>
+        <label>Imię</label>
+            <input type="text" name="name"/>*
+    </fieldset>
+    <fieldset>
+        <label>Temat</label>
+        <select name="subject">
+            <option value="" disabled selected>-- Wybierz temat --</option>
+            <option value="pytanie">Pytanie</option>
+            <option value="support">Pomoc</option>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+        <label>Wiadomość</label>
+        <textarea name="message"></textarea>*
+    </fieldset>
+    <br>
+    <input type="submit" class='button'/>
+    
+</form>
+<br>
+
+<h4>Form Two</h4>
+<form action="javascript:alert('form sended')" id="form2" novalidate>
+    
+    <fieldset>
+        <label>Adres e-mail</label>
+            <input type="email" name="email"/>*
+    </fieldset>
+    
+    <fieldset>
+        <label>Imię</label>
+            <input type="text" name="name"/>*
+    </fieldset>
+    <fieldset>
+        <label>Temat</label>
+        <select name="subject">
+            <option value="" disabled selected>-- Wybierz temat --</option>
+            <option value="pytanie">Pytanie</option>
+            <option value="support">Pomoc</option>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+        <label>Wiadomość</label>
+        <textarea name="message"></textarea>*
+    </fieldset>
+    <br>
+    <input type="submit" class='button'/>
+    
+</form>    
+    
+</div>
+
+	<script src="script_two.js"></script>	
+</body>
+</html>
